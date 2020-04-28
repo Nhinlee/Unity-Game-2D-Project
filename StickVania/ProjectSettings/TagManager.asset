@@ -13,12 +13,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - Platforms
+  - Shadow
+  - Player
+  - Enemy
+  - Backround Detail
   - 
   - 
   - 
@@ -40,4 +40,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 189797927
+    locked: 0
+  - name: Background Detail
+    uniqueID: 1003105957
+    locked: 0
+  - name: Player
+    uniqueID: 3918743577
+    locked: 0
+  - name: Enemy
+    uniqueID: 2468370665
+    locked: 0
+  - name: Platforms
+    uniqueID: 2179612205
+    locked: 0
+  - name: Shadow
+    uniqueID: 2784715883
     locked: 0
