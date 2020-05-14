@@ -24,6 +24,14 @@ public class PlayerMovement : MonoBehaviour
     [Header("State Flag")]
     public bool isOnGround;
     public bool isJumping;
+
+    // Physic check field
+    private bool isDrawRayCast = true;
+    [Header("Physic check field")]
+    public float footDistanceOffset = 0.15f;       //Save distance of 2 foot to ray cast later
+    public float footHightOffset = 0.1f;
+    public float footLengthRay = 0.25f;
+    public LayerMask ground;
     
 
 
@@ -38,14 +46,29 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Check character is on ground or midair or is hanging ...
+        // This use raycast to check
+        PhysicCheck();
         // Movement process:
         GroundMove();
         MidAirMove();
     }
 
+    private void PhysicCheck()
+    {
+        // Set all flag to false
+        isOnGround = false;
+        // foot Raycast2D
+        RaycastHit2D leftFoot = RayCast(new Vector2(footDistanceOffset, footHightOffset), Vector2.down, footLengthRay, ground);
+        RaycastHit2D rightFoot = RayCast(new Vector2(-footDistanceOffset, footHightOffset), Vector2.down, footLengthRay, ground);
+        // Set flag
+        if (leftFoot && rightFoot)
+            isOnGround = true;
+    }
+
     private void MidAirMove()
     {
-        if (myInput.jumpPressed && !isJumping)
+        if (myInput.jumpPressed && !isJumping && isOnGround)
         {
             // Add Y Axis force for character jump
             myRigid.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
@@ -89,5 +112,23 @@ public class PlayerMovement : MonoBehaviour
         scale.x *= -1;
         //Update scale:
         transform.localScale = scale;
+    }
+
+    RaycastHit2D RayCast(Vector2 offset, Vector2 direction, float length, LayerMask mask)
+    {
+        // Character pos
+        Vector2 characterPos = transform.position;
+        // Raycast
+        RaycastHit2D hit = Physics2D.Raycast(characterPos + offset, direction, length, mask);
+        // Draw ray to debug
+        if (isDrawRayCast)
+        {
+            //...determine the color based on if the raycast hit...
+            Color color = hit ? Color.red : Color.green;
+            //draw ray in screen...
+            Debug.DrawRay(characterPos + offset, length * direction, color, 0f, false);
+        }
+
+        return hit;
     }
 }
