@@ -63,10 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DamageSword.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\PlayerAnimation.cs" />
     <Compile Include="Assets\PlayerInput.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\SwordAnimation.cs" />
     <None Include="Assets\Prepare Materials\VFX\Shaders\Fog2.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Unity/2D/2D Final Project/Unity-Game-2D-Project/StickVania/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

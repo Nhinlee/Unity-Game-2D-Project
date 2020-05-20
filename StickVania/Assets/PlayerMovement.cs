@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private int direction = 1;              //1 -> facing right, -1 -> facing left
 
     [Header("Jump field")]
-    public float jumpForce = 7f;
+    public float jumpForce = 6.5f;
     public float jumpHoldForce = 2f;
     public float jumpHoldDuration = 0.1f;
     float jumpTime;                         //Hold jump hold duration

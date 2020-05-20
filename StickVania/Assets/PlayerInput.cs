@@ -12,6 +12,7 @@ public class PlayerInput : MonoBehaviour
     [HideInInspector] public float horizontal;
     [HideInInspector] public bool jumpPressed;
     [HideInInspector] public bool jumpHolding;
+    [HideInInspector] public bool attack;
     // Method:
    
     private void FixedUpdate()
@@ -35,6 +36,7 @@ public class PlayerInput : MonoBehaviour
         // Jump Input:
         jumpPressed = jumpPressed || Input.GetButtonDown("Jump");
         jumpHolding = jumpHolding || Input.GetButton("Jump");
+        attack = attack || Input.GetMouseButtonDown(0);
     }
 
     private void ClearInput()
@@ -43,6 +45,7 @@ public class PlayerInput : MonoBehaviour
 
         jumpPressed = false;
         jumpHolding = false;
+        attack =false;
 
         isReadyToClear = false;
     }

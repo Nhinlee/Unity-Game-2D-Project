@@ -12,13 +12,18 @@ public class PlayerAnimation : MonoBehaviour
 
     // hash ID of Parameter in blend tree
     int speedParamID;
+    int verticalParamID;
+    int isOnGroundParamID;
 
     // Start is called before the first frame update
     void Start()
     {
         //Get integer hashes of parameters
         speedParamID = Animator.StringToHash("speed");
+        verticalParamID = Animator.StringToHash("verticalVelocity");
+        isOnGroundParamID = Animator.StringToHash("isOnGround");
 
+        //Get essential component of parent and this object to control animation
         myInput = GetComponentInParent<PlayerInput>();
         myMovement = GetComponentInParent<PlayerMovement>();
         myRigid = GetComponentInParent<Rigidbody2D>();
@@ -30,5 +35,7 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         myAnime.SetFloat(speedParamID, Mathf.Abs(myInput.horizontal));
+        myAnime.SetFloat(verticalParamID, myRigid.velocity.y);
+        myAnime.SetBool(isOnGroundParamID, myMovement.isOnGround);
     }
 }
