@@ -56,13 +56,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void PhysicCheck()
     {
+        
         // Set all flag to false
         isOnGround = false;
+
         // foot Raycast2D
-        RaycastHit2D leftFoot = RayCast(new Vector2(footDistanceOffset, footHightOffset), Vector2.down, footLengthRay, ground);
-        RaycastHit2D rightFoot = RayCast(new Vector2(-footDistanceOffset, footHightOffset), Vector2.down, footLengthRay, ground);
+        Vector2 pos = transform.position;
+        RaycastHit2D leftFoot = RequireMethod.RayCast(new Vector2(footDistanceOffset, footHightOffset) + pos, 
+            Vector2.down, footLengthRay, ground);
+        RaycastHit2D rightFoot = RequireMethod.RayCast(new Vector2(-footDistanceOffset, footHightOffset) + pos,
+            Vector2.down, footLengthRay, ground);
         // Set flag
-        if (leftFoot && rightFoot)
+        if (leftFoot || rightFoot)
             isOnGround = true;
     }
 

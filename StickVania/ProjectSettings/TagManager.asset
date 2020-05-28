@@ -19,7 +19,7 @@ TagManager:
   - Player
   - Enemy
   - Backround Detail
-  - Sword
+  - Weapon
   - 
   - 
   - 
@@ -50,11 +50,11 @@ TagManager:
   - name: Sword
     uniqueID: 3883823565
     locked: 0
-  - name: Player
-    uniqueID: 3918743577
-    locked: 0
   - name: Enemy
     uniqueID: 2468370665
+    locked: 0
+  - name: Player
+    uniqueID: 3918743577
     locked: 0
   - name: Platforms
     uniqueID: 2179612205
