@@ -69,6 +69,7 @@
     <Compile Include="Assets\EnemyMovement.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\KeyStone.cs" />
+    <Compile Include="Assets\PlatformHorizontal.cs" />
     <Compile Include="Assets\PlayerAnimation.cs" />
     <Compile Include="Assets\PlayerInput.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
