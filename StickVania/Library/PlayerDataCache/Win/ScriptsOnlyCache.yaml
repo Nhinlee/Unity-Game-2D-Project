@@ -1,12 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Door
+    - EmissionPulse
     - EnemyAnimation
     - EnemyMovement
     - GameManager
+    - KeyStone
+    - PlatformHorizontal
     - PlayerAnimation
     - PlayerInput
     - PlayerMovement
+    - Prince
     - SwordAnimation
     Cinemachine.dll:
     - Cinemachine.CinemachineBlenderSettings
@@ -40,10 +45,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -99,27 +102,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9952}
     - Class: 114
-      Script: {instanceID: 10228}
+      Script: {instanceID: 10114}
     - Class: 114
-      Script: {instanceID: 10420}
+      Script: {instanceID: 10230}
     - Class: 114
-      Script: {instanceID: 10968}
+      Script: {instanceID: 10422}
     - Class: 114
-      Script: {instanceID: 11438}
+      Script: {instanceID: 10612}
     - Class: 114
-      Script: {instanceID: 11452}
+      Script: {instanceID: 10972}
     - Class: 114
-      Script: {instanceID: 11808}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 11446}
     - Class: 114
-      Script: {instanceID: 12128}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 12278}
+      Script: {instanceID: 11816}
     - Class: 114
-      Script: {instanceID: 13024}
+      Script: {instanceID: 12134}
     - Class: 114
-      Script: {instanceID: 13076}
+      Script: {instanceID: 12136}
+    - Class: 114
+      Script: {instanceID: 12286}
+    - Class: 114
+      Script: {instanceID: 12288}
+    - Class: 114
+      Script: {instanceID: 12710}
+    - Class: 114
+      Script: {instanceID: 13036}
+    - Class: 114
+      Script: {instanceID: 13088}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -293,6 +306,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: KeyStone
+  - hash:
+      serializedVersion: 2
       Hash: c80bc562de10fdbf8b2e9bcb89d80421
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -455,6 +474,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 0d267386f55d9f42a4dd6b3443d5b4ec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlatformHorizontal
+  - hash:
+      serializedVersion: 2
       Hash: 8890abe75d242bc13a5b8ffd07f54869
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -575,6 +600,12 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
+      Hash: 888616b6eb66bc6a34ab15276aa979b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EmissionPulse
+  - hash:
+      serializedVersion: 2
       Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -639,6 +670,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spike
   - hash:
       serializedVersion: 2
       Hash: d6fc8d3165070298511ec776ea575626
@@ -887,6 +924,12 @@ ScriptsOnlyBuild:
     className: CinemachineBlenderSettings
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Prince
+  - hash:
+      serializedVersion: 2
       Hash: c0201dbecd85f700bcdff493a272631d
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -987,6 +1030,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine.Tilemaps
     className: TerrainTile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Door
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
