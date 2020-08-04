@@ -1,0 +1,583 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-nhinl
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020727 20:3:31] Next license update check is after 2020-07-27T13:25:55
+
+Built from '2019.4/staging' branch; Version is '2019.4.5f1 (81610f64359c) revision 8478991'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8001 MB
+[Licensing::Module] Serial number assigned to: "F4-W5CM-W5SU-PFUZ-8X6M-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Unity/2D/2D Final Project/Unity-Game-2D-Project/StickVania
+-logFile
+Library/AssetImportWorker1.log
+-srvPort
+62604
+Successfully changed project path to: E:/Unity/2D/2D Final Project/Unity-Game-2D-Project/StickVania
+E:/Unity/2D/2D Final Project/Unity-Game-2D-Project/StickVania
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.5f1 (81610f64359c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/2D/2D Final Project/Unity-Game-2D-Project/StickVania/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   
+    VRAM:     2996 MB
+    Driver:   26.21.14.4587
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004374 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Registering precompiled user dll's ...
+Registered in 0.117017 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEditor.AssetDatabase:LoadAssetAtPath(String, Type)
+UnityEditor.AssetDatabase:LoadAssetAtPath(String)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture() (at Library\PackageCache\com.unity.cinemachine@2.5.0\Editor\Windows\CinemachineSettings.cs:193)
+Cinemachine.Editor.CinemachineSettings:.cctor() (at Library\PackageCache\com.unity.cinemachine@2.5.0\Editor\Windows\CinemachineSettings.cs:225)
+Cinemachine.CinemachineColliderPrefs:.cctor() (at Library\PackageCache\com.unity.cinemachine@2.5.0\Editor\Windows\CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes(Type[])
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/ScriptBindings/AssetDatabase.bindings.h line 40] 
+(Filename: Library/PackageCache/com.unity.cinemachine@2.5.0/Editor/Windows/CinemachineSettings.cs Line: 193)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2021 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.1 MB.
+System memory in use after: 104.2 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 3.108000 ms (FindLiveObjects: 0.482700 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.643900 ms  DeleteObjects: 0.922800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Map_1.unity
+  artifactKey: Guid(c7aadfbabb5c9284db330fc3ed20087d) Importer(2089858483,84ac22bb3b0a6e20311ef0312769a920)
+Start importing Assets/Scenes/Map_1.unity using Guid(c7aadfbabb5c9284db330fc3ed20087d) Importer(2089858483,84ac22bb3b0a6e20311ef0312769a920)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(7eabd9b3ce395d74f980c9e37972a8f9) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/UI Control.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(f6327dc3bc1ff764c91bec0e4598cbee) Importer(-1,00000000000000000000000000000000), Assets/VFX/Global Post Processing.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(52959684feb4b704080edd02bfc50849) Importer(-1,00000000000000000000000000000000), Assets/Props/Door.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(3f3ae8d5ffa998041967c35a39518f62) Importer(-1,00000000000000000000000000000000), Assets/Props/Platform Move.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(8abf8576ecbced544a5ffa04b54d538b) Importer(-1,00000000000000000000000000000000), Assets/Prefabs/GameLoader.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Diagnostics callstack to track who triggered the sub-import:
+0x00007FF624F40DE5 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007FF624F761DF (Unity) ResolveArtifactV2
+0x00007FF624F70474 (Unity) MetaDataPathFromGUIDV2
+0x00007FF624E95226 (Unity) AssetDatabase::MetaDataPathFromGUID
+0x00007FF62464125D (Unity) CollectAllDependencies
+0x00007FF62548DEC3 (Unity) AssetDatabaseBindings::GetDependencies
+0x00007FF6253F393F (Unity) AssetDatabase_CUSTOM_GetDependencies
+0x000001E8024C49B7 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:GetDependencies (string[],bool)
+0x000001E8024C480B (Mono JIT Code) UnityEditor.AssetDatabase:GetDependencies (string,bool)
+0x000001E801482BF3 (Mono JIT Code) [AssetIndexer.cs:170] Unity.QuickSearch.AssetIndexer:IndexDocument (string,bool) 
+0x000001E80144D7FC (Mono JIT Code) [SearchIndexEntryImporter.cs:66] Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset (UnityEditor.Experimental.AssetImporters.AssetImportContext) 
+0x000001E80145F125 (Mono JIT Code) UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.Experimental.AssetImporters.AssetImportContext)
+0x000001E80145F306 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+0x00007FFF3617D690 (mono-2.0-bdwgc) [mini-runtime.c:2809] mono_jit_runtime_invoke 
+0x00007FFF36102912 (mono-2.0-bdwgc) [object.c:2921] do_runtime_invoke 
+0x00007FFF3610B96F (mono-2.0-bdwgc) [object.c:2968] mono_runtime_invoke 
+0x00007FF626675F3E (Unity) scripting_method_invoke
+0x00007FF62666FC7D (Unity) ScriptingInvocation::Invoke
+0x00007FF6250482A0 (Unity) ScriptedImporter::GenerateAssetData
+0x00007FF624FEDC51 (Unity) ImportToObjects
+0x00007FF624FED39E (Unity) ImportAsset
+0x00007FF624FED03B (Unity) AssetImportWorker::Import
+0x00007FF624F7C98E (Unity) <lambda_73deb17cde14fd552e7106cd780bf5f1>::operator()
+0x00007FF6250035EB (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007FF625004374 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007FF625006ACE (Unity) asio::io_service::run
+0x00007FF624F76850 (Unity) RunAssetImportWorkerClientV2
+0x00007FF624F768A0 (Unity) RunAssetImporterV2
+0x00007FF6244A69EC (Unity) Application::InitializeProject
+0x00007FF624E267B4 (Unity) WinMain
+0x00007FF627E1FA32 (Unity) __scrt_common_main_seh
+0x00007FFFA1DA7BD4 (KERNEL32) BaseThreadInitThunk
+0x00007FFFA2CACE51 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(0495a1a9e5508b04c88ba485e50ea419) Importer(-1,00000000000000000000000000000000), Assets/Enemy/Knight_1/Knight_1.prefab from editor
+Resuming
+Assertion failed on expression: 'state.state == kUpToDate'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 48] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+Assertion failed on expression: 'state.targetHash == scheduleResult'
+UnityEditor.AssetDatabase:GetDependencies(String[], Boolean)
+UnityEditor.AssetDatabase:GetDependencies(String, Boolean)
+Unity.QuickSearch.AssetIndexer:IndexDocument(String, Boolean) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\AssetIndexer.cs:170)
+Unity.QuickSearch.SearchIndexEntryImporter:OnImportAsset(AssetImportContext) (at Library\PackageCache\com.unity.quicksearch@2.1.0-preview.3\Editor\Indexing\SearchIndexEntryImporter.cs:66)
+UnityEditor.Experimental.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+[C:\buildslave\unity\build\Modules/AssetDatabase/Editor/V2/ImporterAssetResolver.cpp line 49] 
+(Filename: Library/PackageCache/com.unity.quicksearch@2.1.0-preview.3/Editor/Indexing/AssetIndexer.cs Line: 170)
+
+
+Generated asset (ASIEI0B) VirtualArtifacts/NamedExtra/428871baf9ca29c4382c0ff6fd887e8b.asset.b.index for Assets/Scenes/Map_1.unity with Types, Properties, Dependencies
+Done importing asset: 'Assets/Scenes/Map_1.unity' (target hash: '941335f75f10b847a2c124383452cd6d') in 1.089049 seconds
+  Import took 1.096442 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002541 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.381 seconds
+Registering precompiled user dll's ...
+Registered in 0.095427 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 5.958800 ms (FindLiveObjects: 0.597500 ms CreateObjectMapping: 0.087700 ms MarkObjects: 3.126800 ms  DeleteObjects: 2.145600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002256 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Registering precompiled user dll's ...
+Registered in 0.085613 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.540 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2407.
+Total: 5.217000 ms (FindLiveObjects: 1.107900 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.497800 ms  DeleteObjects: 1.511400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002196 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.490 seconds
+Registering precompiled user dll's ...
+Registered in 0.091804 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.443 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 4.511500 ms (FindLiveObjects: 0.520700 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.237700 ms  DeleteObjects: 1.693400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002410 seconds.
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.731 seconds
+Registering precompiled user dll's ...
+Registered in 0.095370 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\2D\2D Final Project\Unity-Game-2D-Project\StickVania\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 65.5 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 4.922100 ms (FindLiveObjects: 0.592500 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.962500 ms  DeleteObjects: 1.286400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8978.131032 seconds.
+  path: Assets/Audios
+  artifactKey: Guid(a158697a801aa08428bd72f8568896c6) Importer(2089858483,84ac22bb3b0a6e20311ef0312769a920)
+Start importing Assets/Audios using Guid(a158697a801aa08428bd72f8568896c6) Importer(2089858483,84ac22bb3b0a6e20311ef0312769a920)
+
+Generated asset (ASIEI0B) VirtualArtifacts/NamedExtra/852caca884a8d8449b1c773f7ba5221c.asset.b.index for Assets/Audios with Types, Properties, Dependencies
+Done importing asset: 'Assets/Audios' (target hash: '7b38c152a2d6a867cebd4907d4c43678') in 0.154280 seconds
+  Import took 0.164978 seconds.
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
